@@ -20,15 +20,17 @@ You are about to build:
 3.  **A P2P Network** (WebSockets, Gossip Protocol)
 4.  **Consensus Engines:**
     *   Proof of Work (PoW)
-    *   Proof of Authority (PoA)
-    *   Proof of Stake (PoS)
-    *   Delegated Proof of Stake (DPoS)
-    *   BFT & Instant Finality (Tendermint)
-    *   Federated Byzantine Agreement (Stellar/XRP)
-    *   Hybrid Consensus (Polkadot)
-    *   Avalanche Consensus
-    *   Proof of History (PoH)
-    *   Hashgraphs & DAGs
+   ### Phase 2: High Performance (The Go Migration)
+*   **Focus:** Concurrency, handling 10k+ connections, migrating to Proof-of-Stake, and **Deterministic Finality (BFT)**.
+*   **Tech:** Go (Golang), Fiber, Goroutines, Tendermint Architecture.
+
+### Phase 3: The System Level (Rust & WASM)
+*   **Focus:** Memory safety, WebAssembly integration, and L2 Scaling (Rollups).
+*   **Tech:** Rust, Arbitrum Stylus, Solana Architecture (PoH).
+
+### Phase 4: The Frontier (Research & Beyond)
+*   **Focus:** Zero-Knowledge Proofs, Avalanche Consensus, Hybrid Architectures, and Account Abstraction.
+*   **Tech:** Circom, SnarkJS, Graph Structures, Snowball Algorithm.
 
 ## Requirements
 
